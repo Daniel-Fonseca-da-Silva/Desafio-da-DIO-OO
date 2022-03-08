@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -26,6 +27,9 @@ public class Main {
 
         System.out.println(curso1);
         System.out.println(mentoria);
+
+       Conteudo conteudo = new Curso();
+
     }
 
 }
